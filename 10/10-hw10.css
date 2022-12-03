@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-image: url("images/bg-masthead.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+  .bg-signup {
+    background-image: url("images/bg-signup.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+  
+  .gradient-header-custom {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    );
+  }
+  .gradient-header-custom2 {
+    background: linear-gradient(
+      to bottom,
+      #000 0%,
+      rgba(0, 0, 0, 0.9) 75%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
+  

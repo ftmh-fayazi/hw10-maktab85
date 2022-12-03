@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 5%;
+    margin: 5%;
+  }
+  .mainBox {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  .infoBox {
+    border: 1px solid rgb(7, 7, 7); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    width: 70%;
+    height: 50px;
+  }
+  .tooltips {
+    background-color: rgb(146, 236, 184);
+    padding: 10px;
+    width: 70%;
+    visibility: hidden;
+  }
+  
